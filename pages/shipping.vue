@@ -14,7 +14,7 @@
 
 
         <div class="right prose p-8 bg-white rounded rounded-md w-[65ch]">
-            <h3 class="font-bold ">Products INFO</h3>
+            <NuxtPage />
         </div>
        </div>
     </div>
