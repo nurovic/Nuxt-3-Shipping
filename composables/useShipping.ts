@@ -1,5 +1,4 @@
 import shippingData from '../shippingData'
-console.log("alkdaskjd", shippingData)
 
 export const useShipping = () => {
     return {
