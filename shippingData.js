@@ -1,11 +1,11 @@
 export default {
   companies: [
     {
-      Business: "Legros - Rippin",
+      Company: "Legros - Rippin",
       id: "1",
-      Transportation: [
+      Product: [
         {
-          Product: "Hat",
+          ProductName: "Hat",
           Vehicle: "Flat-Foot Comfort Bicycle",
           City: "Spring Valley",
           Driver: "Herman Koelpin",
@@ -16,7 +16,7 @@ export default {
           DataId: "1",
         },
         {
-          Product: "Pants",
+          ProductName: "Pants",
           Vehicle: "City Bicycle",
           City: "Cheektowaga",
           Driver: "Gilbert Johnson",
@@ -27,7 +27,7 @@ export default {
           DataId: "1",
         },
         {
-          Product: "Fish",
+          ProductName: "Fish",
           Vehicle: "Adventure Road Bicycle",
           City: "Cincinnati",
           Driver: "Darrel Simonis",
@@ -38,7 +38,7 @@ export default {
           DataId: "1",
         },
         {
-          Product: "Salad",
+          ProductName: "Salad",
           Vehicle: "Tricycle",
           City: "Lowell",
           Driver: "Desiree Gibson",
@@ -51,11 +51,11 @@ export default {
       ],
     },
     {
-      Business: "Cartwright - Kessler",
+      Company: "Cartwright - Kessler",
       id: "2",
-      Transportation: [
+      Product: [
         {
-          Product: "Tuna",
+          ProductName: "Tuna",
           Vehicle: "Adventure Road Bicycle",
           City: "West Haven",
           Driver: "Salvatore Weber",
@@ -66,7 +66,7 @@ export default {
           DataId: "2",
         },
         {
-          Product: "Shoes",
+          ProductName: "Shoes",
           Vehicle: "Tricycle",
           City: "Gresham",
           Driver: "Shane Koepp",
@@ -77,7 +77,7 @@ export default {
           DataId: "2",
         },
         {
-          Product: "Keyboard",
+          ProductName: "Keyboard",
           Vehicle: "Road Bicycle",
           City: "Bedford",
           Driver: "Misty Stark",
@@ -88,7 +88,7 @@ export default {
           DataId: "2",
         },
         {
-          Product: "Shirt",
+          ProductName: "Shirt",
           Vehicle: "Fitness Bicycle",
           City: "Rocklin",
           Driver: "Jodi Cronin",
@@ -101,11 +101,11 @@ export default {
       ],
     },
     {
-      Business: "Miller - Schiller",
+      Company: "Miller - Schiller",
       id: "3",
-      Transportation: [
+      Product: [
         {
-          Product: "Chicken",
+          ProductName: "Chicken",
           Vehicle: "Dual-Sport Bicycle",
           City: "Oro Valley",
           Driver: "Hattie Konopelski",
@@ -116,7 +116,7 @@ export default {
           DataId: "3",
         },
         {
-          Product: "Pizza",
+          ProductName: "Pizza",
           Vehicle: "Cruiser Bicycle",
           City: "Oshkosh",
           Driver: "Ms. Jaime Williamson",
@@ -127,7 +127,7 @@ export default {
           DataId: "3",
         },
         {
-          Product: "Cheese",
+          ProductName: "Cheese",
           Vehicle: "Dual-Sport Bicycle",
           City: "Shawnee",
           Driver: "Delores Douglas",
@@ -138,7 +138,7 @@ export default {
           DataId: "3",
         },
         {
-          Product: "Pants",
+          ProductName: "Pants",
           Vehicle: "Folding Bicycle",
           City: "North Richland Hills",
           Driver: "Terence Christiansen",
@@ -151,11 +151,11 @@ export default {
       ],
     },
     {
-      Business: "McClure - Stoltenberg",
+      Company: "McClure - Stoltenberg",
       id: "4",
-      Transportation: [
+      Product: [
         {
-          Product: "Keyboard",
+          ProductName: "Keyboard",
           Vehicle: "Flat-Foot Comfort Bicycle",
           City: "Spring",
           Driver: "Allen Purdy",
@@ -166,7 +166,7 @@ export default {
           DataId: "4",
         },
         {
-          Product: "Towels",
+          ProductName: "Towels",
           Vehicle: "Tandem Bicycle",
           City: "Altoona",
           Driver: "Miss Michelle Walker",
@@ -179,11 +179,11 @@ export default {
       ],
     },
     {
-      Business: "Pfeffer and Sons",
+      Company: "Pfeffer and Sons",
       id: "5",
-      Transportation: [
+      Product: [
         {
-          Product: "Fish",
+          ProductName: "Fish",
           Vehicle: "Folding Bicycle",
           City: "Pittsburg",
           Driver: "Kevin Von",
@@ -194,7 +194,7 @@ export default {
           DataId: "5",
         },
         {
-          Product: "Bacon",
+          ProductName: "Bacon",
           Vehicle: "Recumbent Bicycle",
           City: "Tinley Park",
           Driver: "Mrs. Freda Doyle Sr.",
@@ -207,11 +207,11 @@ export default {
       ],
     },
     {
-      Business: "Ziemann - Leuschke",
+      Company: "Ziemann - Leuschke",
       id: "6",
-      Transportation: [
+      Product: [
         {
-          Product: "Chips",
+          ProductName: "Chips",
           Vehicle: "Flat-Foot Comfort Bicycle",
           City: "Carrollton",
           Driver: "Patricia Kuhn",
