@@ -1,14 +1,38 @@
-import shippingData from '../shippingData'
+import shippingData from "../shippingData";
 
-export const useShipping = () => {
+type Product = {
+  ProductName: String;
+  Vehicle: String;
+  City: String;
+  Driver: String;
+  DailyDestination: String;
+  Description: String;
+  id: String;
+  DataId: String;
+};
+
+type Company = {
+  Company: String;
+  id: String;
+  Product: Product[];
+};
+
+type Shipping = {
+  companies: Company[];
+};
+export const useShipping = (): Shipping => {
+  const companies: Company[] = shippingData.companies.map((company) => {
+    const products: Product[] = company.Product.map((item) => ({
+      ...item,
+      path: `/shipping/company/${company.id}/product/${item.id}`,
+    }));
     return {
-        ...shippingData,
-        companies: shippingData.companies.map((company) => ({
-            ...company,
-            products: company.Product.map((item) => ({
-                ...item,
-                path:`/shipping/company/${company.id}/product/${item.id}`
-            }))
-        }))
-    }
-}
+      ...company,
+      products,
+    };
+  });
+  return {
+    ...shippingData,
+    companies,
+  };
+};
