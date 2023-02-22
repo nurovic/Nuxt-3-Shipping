@@ -9,6 +9,7 @@ type Product = {
   Description: String;
   id: String;
   DataId: String;
+  path?: String
 };
 
 type Company = {
